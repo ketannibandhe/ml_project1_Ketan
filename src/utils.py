@@ -56,6 +56,10 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
     except Exception as e:
         raise CustomException(e, sys)
     
+
+    # the reason we have written this function in the 
+    # utils.py is that this function is common to all the files 
+    #  
 def load_object(file_path):
     try:
         with open(file_path, "rb") as file_obj:
