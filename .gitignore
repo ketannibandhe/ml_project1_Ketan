@@ -114,6 +114,7 @@ ipython_config.py
 #   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
 # pdm.lock
 # pdm.toml
+
 .pdm-python
 .pdm-build/
 
@@ -148,7 +149,7 @@ activemq-data/
 *.sage.py
 
 # Environments
-.artifacts/
+# .artifacts/
 venv_ml/
 .env
 .envrc
